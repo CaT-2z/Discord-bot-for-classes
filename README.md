@@ -31,7 +31,10 @@ Other dependencies are as follows:
 Don't forget to copy your [Discord application's token](https://discordapp.com/developers/applications) to the ```Token Here``` at the end of _app.js_
 
 ## Usage
-To start the bot, use Powershell to open the _app.js_ file with node.js ```node app.js```.
+To start the bot, use Powershell to open the _app.js_ file with node.js
+```bash
+node app.js
+```
 The command prompt will write a message similar to this:
 ```bash
 Logged in as {your application's name}!
