@@ -1,0 +1,20 @@
+{
+  "name": "bernard",
+  "version": "0.0.0",
+  "description": "Bernard",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "discord.js": "^12.1.1",
+    "event-stream": "^4.0.1",
+    "ffmpeg-static": "^4.0.1",
+    "findup-sync": "^4.0.0",
+    "prism-media": "^1.2.1",
+    "sodium": "^3.0.2",
+    "windows-build-tools": "^5.2.2",
+    "ytdl-core-discord": "^1.1.0"
+  }
+}
