@@ -50,7 +50,7 @@ function overrides(msg) {
             names = msg.content.split(' ')
             names.shift();
             for (name of names) {
-                x = msg.guild.members.cache.find(n => RegExp(name, i).test(n.name));
+                x = msg.guild.members.cache.find(n => RegExp(name, i).test(n.displayName));
                 if (!whiteListedUsers.has(x.id)) {
                     whiteListedUsers.add(x.id);
                 }
@@ -60,7 +60,7 @@ function overrides(msg) {
             names = msg.content.split(' ')
             names.shift();
             for (name of names) {
-                x = msg.guild.members.cache.find(n => RegExp(name, i).test(n.name));
+                x = msg.guild.members.cache.find(n => RegExp(name, i).test(n.displayName));
                 if (whiteListedUsers.has(x.id)) {
                     whiteListedUsers.delete(x.id);
                 }
