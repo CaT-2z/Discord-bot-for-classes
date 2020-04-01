@@ -281,4 +281,4 @@ client.on('message', msg => {
 });
 
 process.on('unhandledRejection', error => console.error('Uncaught Promise Rejection', error));
-client.login('Njg5NDk4MjU1ODQyNzM4MjU5.XnDvag.MIO8fQao3gKAOKDd7NYFNrtd-VQ');
+client.login( YOUR TOKEN HERE );
