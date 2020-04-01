@@ -20,7 +20,6 @@ client.on('ready', () => {
     overrideKey = Math.random().toString(36).substring(7, 15);
     console.log(`overridekey : ${overrideKey}`);
 });
-
 function overrides(msg) {
     if (!whiteListedUsers.has(msg.member.id)) {
         whiteListedUsers.add(msg.member.id);
@@ -281,4 +280,4 @@ client.on('message', msg => {
 });
 
 process.on('unhandledRejection', error => console.error('Uncaught Promise Rejection', error));
-client.login( YOUR TOKEN HERE );
+client.login('YOUR TOKEN HERE');
