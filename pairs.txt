@@ -1,1 +1,5 @@
-Esemius Marcell
+//Put names here:
+name1 name2 name3
+name4 name5
+name6 name7 name8
+//It will look like this: Group1: 1,2,3 Group2: 4,5 Group3: 6,7,8
