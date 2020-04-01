@@ -2,8 +2,12 @@
 Discord bot to help with studying aka **Bernard**
 
 ## Installation
-This is a discord.js bot using [node.js](https://nodejs.org/en/).
-Once downloaded, open a Powershell window as administrator, and type
+This guide is aimed at people with no prior knowledge of pip git or npm whatsoever.
+
+Firstly, download the repository and place it in a folder.
+
+This is a discord.js bot using node.js, download it at the [node.js website](https://nodejs.org/en/).
+Once downloaded, open a Powershell window as administrator, navigate to the created folder, and type
 ```bash
 npm i discord.js
 ```
