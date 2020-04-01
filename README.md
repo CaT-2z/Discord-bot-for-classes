@@ -39,11 +39,6 @@ overridekey : {the current override key}
 ```
 This override key is used for changing who the bot accepts inputs from.
 
-
-
-
-
-
 ***
 ## Commands
 To command this discord bot use the `wyk` or `would you kindly` prefix followed by a command:
@@ -69,3 +64,5 @@ To command this discord bot use the `wyk` or `would you kindly` prefix followed 
   - `key clear` will turn on Whitelist mode. In Whitelist mode, only admins, the owner, and people in the Whitelisted users group can use the bot.
   - `key void` will turn on Whitelist+ mode. In it, only the whitelisted users can use the bot.
   - `key free` turns off Whitelist mode and generates a new key.
+  - `key add name1 name2...` adds members to Whitelisted users group.
+  - `key remove name1 name2` removes membes from Whitelisted users group.
