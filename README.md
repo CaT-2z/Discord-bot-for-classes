@@ -25,7 +25,7 @@ Other dependencies are as follows:
 ```npm i ffmpeg-static```
 
  - The discord.js opus library 
-```npm i discord.js @discord.js/opus```
+```npm i discord.js @discordjs/opus```
 
  - sodium (for better audio performance)
 ```npm i sodium```
